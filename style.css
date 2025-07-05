@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+section.main{
+    background-image: url('./imagem/HERO\ BACKGROUND.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.logo-menu{width:50%;}
+
+.item-menu{
+    width: 50%;
+    text-align: right;
+}
+.item-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.item-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+.item-menu a.contact-btn{
+    background-color: #0F3FD3;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.item-menu a.contact-btn:hover{
+    border: 0;
+}
+.mockup{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.mockup img{max-width: 100%;}
+
+section.marcas{
+    padding-block-end: 0%;
+}
+
+section.marcas img{
+    width: calc(100% / 5);
+    
+}
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+}
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+}
+section.porque-nos > .center{
+    max-width: 1280px;
+}
+.porque-nos h2 a{
+    color: rgba(0, 0, 0, 0.842);
+    text-decoration: none;
+
+}
+section.porque-nos > .center > p{
+    font-size: 14px;
+    color: #ccc;
+    width: 100%;
+    text-align: center;
+}
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.box-diferenciais > h3{
+    font-size: 22px;
+    color: black;
+    margin: 20px 0;
+}
+.box-diferenciais > p{
+    color: #7E92AC;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+section.cta{
+    background-image: url('./imagem/BANNER\ IMG.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px 10px;
+    min-height: 220px;
+    color: white;
+    text-align: center;
+}
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #0F3FD3;
+    background: #FFDD33 0% 0% no-repeat padding-box;
+    margin: 10px;
+
+}
+.lista-beneficios{
+    width: 40%;
+    margin-top: 30px;
+}
+.lista-beneficios h1 {
+    color: black;
+    font-size: 30px;    
+}
+.lista-beneficios p{
+    color: #7e82ac;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+.img-beneficios{
+    width: 60%;
+}
+.img-beneficios img{
+    max-width: 100%;
+}
+.lista-beneficios a{
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    margin: 20px;
+}
+section.depoimentos{
+    background-color: #FFFFFF;
+    padding: 40px 0;
+}
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.depoimentos h1 a{
+    color: rgba(0, 0, 0, 0.842);
+    text-decoration: none;
+
+}
+.container-slider{
+    overflow: hidden;
+    padding: 40px 0;
+    
+    
+}
+.container-slider-single{
+    float: left;
+    background-color: #f1f4f3;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 12px;   
+}
+.container-slider-single p {
+    font-size: 8px;
+    color: #373855;
+    padding-top: 12px;
+}
+.container-slider-single img {    
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
+    padding-top: 12px;
+}
+
+
+
+.slick-slide{
+    margin-left: 27px;
+}
+.slick-list{
+    margin-left: 27px;
+}
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+.slick-dotted button-focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;    
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #373855;
+    color: #373855;
+}
+
+.slick-slide:focus {outline: none;}
+
+/*Fim slick slide*/
+
+section.contatos {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contatos h1 {
+    font-size: 50px;    
+}
+.contatos h1 a{
+    color: black;
+    text-decoration: none;
+}
+
+section.contatos form {
+    width: 100%;
+    
+}
+
+.contatos input[type="text"],
+.contatos input[type="email"] {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.contatos textarea{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    padding:  10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.contatos input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    background: #255AFF;
+    font-size: 18px;
+    border-radius: 7px;
+}
+footer{
+    background-color: #255AFF;
+    color: white;
+    padding: 7px 0;
+    
+}
+.text-footer{
+    width: 50%;
+    padding: 8px 0;   
+}
+.item-menu-mobile{
+    width: 50%;
+    text-align: right;
+    display: none;      
+}
+.item-menu-mobile i{
+    color: white;
+    top: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .item-menu-mobile{
+        display: block;
+
+    }
+    .menu-mobile{
+        
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        background-color: white;
+        width: 100%;
+        padding: 20px 0;
+        
+    }
+    .show{
+        opacity: 1;        
+    }
+    .hide{
+        opacity: 0;
+    }
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        color: #05258d;
+        text-decoration: none;
+        font-weight: bold;
+       
+    }
+
+    section.main .item-menu{
+        display: none;
+    }
+
+
+    footer .item-menu{
+        width: 100%;
+        text-align: center;
+    }
+    footer .item-menu a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;        
+    }
+    .text-footer{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+    .lista-beneficios, .img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .lista-beneficios h1{
+        text-align: center;
+    }
+    .lista-beneficios img p{
+        padding: 20px;
+        margin-left: 10px;
+    }
+    a.lista-beneficios{
+        text-align: center;
+    }
+    .diferenciais {
+        flex-wrap: wrap;
+    }
+    .box-diferenciais {
+        width: 100%;
+        margin-right: 0;
+    }
+    section.marcas > .center {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section.marcas img {
+        width: 100%;
+        max-width: 300px;
+        padding: 5px;
+        
+      
+    }
+    .container-slider{
+        padding: 20px;
+    }
+
+}
